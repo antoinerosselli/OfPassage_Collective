@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Of Passage</title>
+  <meta name="description" content="Of Passage, collectif de jeux vidéo indépendants où chaque membre a voix au chapitre, à chaque étape de la création : Gaslighters, Veilbound.">
+  <meta name="theme-color" content="#ffffff">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Of Passage">
+  <meta property="og:description" content="Collectif de jeux vidéo indépendants où chaque voix compte, à chaque étape.">
+  <!-- Une fois le site en ligne, remplace par l'adresse complète : https://ton-site/img/of-passage.png -->
+  <meta property="og:image" content="img/of-passage.png">
+  <link rel="icon" href="img/of-passage.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Public+Sans:wght@400;500;600&family=VT323&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Les textes marqués data-i18n sont traduits par script.js (dictionnaire TEXTS) -->
+  <a class="skip-link" href="#jeux" data-i18n="skip">Aller au contenu</a>
+
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a href="#top" class="nav-logo" translate="no">Of Passage</a>
+      <nav aria-label="Navigation principale" data-i18n-aria="navLabel">
+        <a href="veilbound.html" class="nav-vb" translate="no">Veilbound</a>
+        <a href="#jeux" data-i18n="navGames">Jeux</a>
+        <a href="#collectif" data-i18n="navCollective">Le collectif</a>
+        <a href="#equipe" data-i18n="navTeam">Équipe</a>
+        <a href="#rejoindre" data-i18n="navJoin">Rejoindre</a>
+        <div class="lang" role="group" aria-label="Langue" data-i18n-aria="langLabel">
+          <button type="button" class="lang-btn" data-lang="fr" aria-pressed="true">FR</button>
+          <button type="button" class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- ===== INTRO ===== -->
+    <section class="hero">
+      <div class="wrap hero-inner">
+        <h1 class="hero-tagline" data-i18n="tagline">Chaque voix compte,<br> <em>à chaque étape.</em></h1>
+
+        <div class="dialog" role="group" aria-label="Présentation" data-i18n-aria="introLabel">
+          <p class="dialog-name" translate="no">Of Passage</p>
+          <p class="dialog-text" data-i18n="intro">
+            Bienvenue. On est un collectif de jeux vidéo indépendants. Ici, personne ne décide seul : de la première idée aux derniers réglages, chaque membre donne son avis, et chaque avis est vraiment pris en compte.
+          </p>
+          <span class="dialog-next" aria-hidden="true">▼</span>
+        </div>
+
+        <ul class="menu">
+          <li><a href="#jeux" data-i18n="menuGames">Voir nos jeux</a></li>
+          <li><a href="#veilbound" data-i18n="menuPlaytest">Tester Veilbound</a></li>
+          <li><a href="#rejoindre" data-i18n="menuJoin">Rejoindre le collectif</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== JEUX ===== -->
+    <section id="jeux" class="section wrap">
+      <div class="section-head">
+        <p class="eyebrow" data-i18n="gamesEyebrow">Nos jeux</p>
+        <h2 data-i18n="gamesTitle">Ce qu'on fabrique</h2>
+      </div>
+
+      <div class="games">
+        <!-- Veilbound : le jeu en cours -->
+        <article class="game game-dark" id="veilbound">
+          <div class="game-art game-art-dark">
+            <img src="img/veilbound.jpg" alt="Logo de Veilbound" loading="lazy" data-i18n-alt="vbAlt">
+          </div>
+          <div class="game-body">
+            <p class="status" data-i18n="vbStatus">En développement</p>
+            <h3 translate="no">Veilbound</h3>
+            <!-- À compléter : pitch, genre, date de sortie prévue -->
+            <p data-i18n="vbText">
+              Notre prochain jeu, en développement sous Godot. Toute l'équipe participe aux choix, et des sessions de playtest sont en cours.
+            </p>
+            <ul class="chips">
+              <li>Godot</li>
+              <li>FMOD</li>
+              <li data-i18n="vbChipPlaytest">Playtests en cours</li>
+            </ul>
+            <div class="game-actions">
+              <button type="button" class="btn btn-light" id="pt-join-open" data-i18n="vbJoin">Rejoindre le playtest</button>
+              <a class="game-link game-link-light" href="veilbound.html#notice" data-i18n="vbNotices">Lire la notice →</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Gaslighters -->
+        <article class="game">
+          <a class="game-art" href="https://antowaan.itch.io/gaslighters" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">
+            <img src="img/cover-gaslighters.png" alt="" loading="lazy">
+          </a>
+          <div class="game-body">
+            <p class="game-meta"><span>2025</span> · <span data-i18n="gsGenre">Mystère</span> · <span data-i18n="gsPlatform">Windows · Démo</span></p>
+            <h3><a href="https://antowaan.itch.io/gaslighters" target="_blank" rel="noopener" translate="no">Gaslighters</a></h3>
+            <p data-i18n="gsText">
+              Un brouillard mystérieux tombe sur Rock Valley. À la radio, des inconnus disent
+              des demi-vérités.
+            </p>
+            <ul class="chips chips-blue">
+              <li>Godot</li>
+              <li>GDScript</li>
+            </ul>
+            <div class="game-actions">
+              <a class="game-link" href="https://antowaan.itch.io/gaslighters" target="_blank" rel="noopener" data-i18n="gsPlay">Jouer à la démo sur itch.io ↗</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== LE COLLECTIF ===== -->
+    <section id="collectif" class="section wrap">
+      <div class="section-head">
+        <p class="eyebrow" data-i18n="collEyebrow">Le collectif</p>
+        <h2 data-i18n="collTitle">Comment on travaille</h2>
+        <p class="lead" data-i18n="collLead">Un jeu Of Passage n'appartient pas à une seule personne : il est fait de toutes les voix de l'équipe.</p>
+      </div>
+      <ol class="pillars">
+        <li>
+          <span class="pillar-num" aria-hidden="true">I</span>
+          <h3 data-i18n="p1Title">Tout le monde a voix au chapitre</h3>
+          <p data-i18n="p1Text">Programmation, son, art ou écriture : chaque membre donne son avis sur tout le jeu, pas seulement sur sa partie.</p>
+        </li>
+        <li>
+          <span class="pillar-num" aria-hidden="true">II</span>
+          <h3 data-i18n="p2Title">On décide ensemble</h3>
+          <p data-i18n="p2Text">Les choix importants se discutent en groupe. Une idée ne passe pas parce qu'elle vient de quelqu'un, mais parce qu'elle convainc l'équipe.</p>
+        </li>
+        <li>
+          <span class="pillar-num" aria-hidden="true">III</span>
+          <h3 data-i18n="p3Title">On avance pas à pas</h3>
+          <p data-i18n="p3Text">On fait jouer nos jeux tôt et on écoute les retours, ceux des membres comme ceux des joueurs.</p>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ===== ÉQUIPE ===== -->
+    <section id="equipe" class="section wrap">
+      <div class="section-head">
+        <p class="eyebrow" data-i18n="teamEyebrow">L'équipe</p>
+        <h2 data-i18n="teamTitle">Qui on est</h2>
+      </div>
+      <!-- La liste se remplit depuis script.js (TEAM) -->
+      <ul class="team" id="team-list"></ul>
+    </section>
+
+    <!-- ===== REJOINDRE ===== -->
+    <section id="rejoindre" class="join-band">
+      <div class="wrap join-band-inner">
+        <div>
+          <p class="eyebrow eyebrow-light" data-i18n="joinEyebrow">On recrute</p>
+          <h2 data-i18n="joinBandTitle">Envie de créer un jeu où ton avis compte ?</h2>
+          <p class="lead" data-i18n="joinBandLead">
+            On cherche des personnes motivées, quel que soit leur niveau. Chacun participe aux décisions, de la première idée à la sortie. Présente-toi, on te répond.
+          </p>
+        </div>
+        <div class="join-band-side">
+          <ul class="roles" aria-label="Rôles recherchés" data-i18n-aria="rolesLabel">
+            <li data-i18n="roleProg">Programmation</li>
+            <li>Game design</li>
+            <li data-i18n="roleWriting">Écriture et narration</li>
+            <li data-i18n="role2d">Art 2D</li>
+            <li data-i18n="role3d">Art 3D</li>
+            <li data-i18n="roleSound">Son et musique</li>
+            <li data-i18n="roleVoice">Doublage</li>
+          </ul>
+          <div class="join-band-actions">
+            <button type="button" class="btn btn-light" id="op-join-open" data-i18n="opJoin">Demander à rejoindre</button>
+            <!-- Liens du collectif : remplis-les dans script.js (OP_LINKS) -->
+            <ul class="op-links" id="op-links"></ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Formulaire pour rejoindre Of Passage -->
+    <dialog class="join" id="op-join" aria-labelledby="join-title">
+      <form class="join-form" id="op-join-form" method="dialog" novalidate>
+        <p class="dialog-name" translate="no">Of Passage</p>
+        <h3 id="join-title" data-i18n="joinTitle">Rejoindre le collectif</h3>
+        <p class="join-help" data-i18n="joinHelp">Présente-toi en quelques lignes. Le bouton prépare un email avec tes réponses, tu n'as plus qu'à l'envoyer.</p>
+
+        <label for="join-name" data-i18n="fieldName">Ton nom ou pseudo</label>
+        <input id="join-name" name="name" type="text" required autocomplete="name">
+
+        <label for="join-role" data-i18n="fieldRole">Ce que tu fais</label>
+        <select id="join-role" name="role" required>
+          <option value="" data-i18n="rolePick">Choisis un rôle</option>
+          <option data-i18n="roleProg">Programmation</option>
+          <option>Game design</option>
+          <option data-i18n="roleWriting">Écriture et narration</option>
+          <option data-i18n="role2d">Art 2D</option>
+          <option data-i18n="role3d">Art 3D</option>
+          <option data-i18n="roleSound">Son et musique</option>
+          <option data-i18n="roleVoice">Doublage</option>
+          <option data-i18n="roleOther">Autre</option>
+        </select>
+
+        <label for="join-link" data-i18n="fieldLink">Un lien vers ton travail <span>(facultatif)</span></label>
+        <input id="join-link" name="link" type="url" placeholder="https://" autocomplete="url" spellcheck="false">
+
+        <label for="join-msg" data-i18n="fieldWhy">Pourquoi Of Passage ?</label>
+        <textarea id="join-msg" name="message" rows="4" required></textarea>
+
+        <p class="join-error" id="join-error" role="alert" hidden></p>
+        <p class="join-done" id="join-done" role="status" hidden></p>
+
+        <div class="join-actions">
+          <button type="button" class="join-cancel" id="op-join-close" data-i18n="cancel">Annuler</button>
+          <button type="submit" class="btn" data-i18n="prepareEmail">Préparer l'email</button>
+        </div>
+      </form>
+    </dialog>
+
+    <!-- Formulaire pour rejoindre le playtest de Veilbound -->
+    <dialog class="join" id="pt-join" aria-labelledby="pt-title">
+      <form class="join-form" id="pt-join-form" method="dialog" novalidate>
+        <p class="dialog-name" translate="no">Veilbound</p>
+        <h3 id="pt-title" data-i18n="ptTitle">Rejoindre le playtest</h3>
+        <p class="join-help" data-i18n="ptHelp">Dis-nous qui tu es. Le bouton prépare un email avec tes réponses, tu n'as plus qu'à l'envoyer.</p>
+
+        <label for="pt-name" data-i18n="fieldName">Ton nom ou pseudo</label>
+        <input id="pt-name" name="name" type="text" required autocomplete="name">
+
+        <label for="pt-exp" data-i18n="ptFieldExp">Tu as déjà fait des playtests ?</label>
+        <select id="pt-exp" name="experience" required>
+          <option value="" data-i18n="ptExpPick">Choisis une réponse</option>
+          <option data-i18n="ptExpNever">Jamais, ce sera le premier</option>
+          <option data-i18n="ptExpFew">Quelques fois</option>
+          <option data-i18n="ptExpOften">Souvent</option>
+          <option data-i18n="ptExpPro">Je suis testeur QA</option>
+        </select>
+
+        <label for="pt-games" data-i18n="ptFieldGames">Tes jeux préférés <span>(facultatif)</span></label>
+        <input id="pt-games" name="games" type="text" autocomplete="off">
+
+        <label for="pt-msg" data-i18n="ptFieldMsg">Un mot pour nous ? <span>(facultatif)</span></label>
+        <textarea id="pt-msg" name="message" rows="3"></textarea>
+
+        <p class="join-error" id="pt-error" role="alert" hidden></p>
+        <p class="join-done" id="pt-done" role="status" hidden></p>
+
+        <div class="join-actions">
+          <button type="button" class="join-cancel" id="pt-join-close" data-i18n="cancel">Annuler</button>
+          <button type="submit" class="btn" data-i18n="prepareEmail">Préparer l'email</button>
+        </div>
+      </form>
+    </dialog>
+  </main>
+
+  <footer class="footer wrap">
+    <span>© <span id="year">2026</span> <span translate="no">Of Passage</span></span>
+    <a class="pixel" href="https://antowaan.itch.io/" target="_blank" rel="noopener">itch.io ↗</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

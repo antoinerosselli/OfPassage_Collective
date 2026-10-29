@@ -1,0 +1,121 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R] /Count 6 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 420 595] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 394 >>
+stream
+0.96 0.71 0.16 rg 0 587 420 8 re f
+BT /F1 26 Tf 40 515 Td (vb-notices) Tj ET
+BT /F2 14 Tf 40 465 Td (Build 0.1.0) Tj ET
+BT /F2 14 Tf 40 441 Td () Tj ET
+BT /F2 14 Tf 40 417 Td (Notice de demonstration) Tj ET
+BT /F2 14 Tf 40 393 Td () Tj ET
+BT /F2 14 Tf 40 369 Td (Remplace ce fichier par) Tj ET
+BT /F2 14 Tf 40 345 Td (ta vraie notice de patch.) Tj ET
+0.5 g BT /F2 10 Tf 350 30 Td (1 / 6) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 420 595] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 282 >>
+stream
+0.96 0.71 0.16 rg 0 587 420 8 re f
+BT /F1 26 Tf 40 515 Td (Nouveautes) Tj ET
+BT /F2 14 Tf 40 465 Td (- Nouveau mode de jeu) Tj ET
+BT /F2 14 Tf 40 441 Td (- Ajout de 3 cartes) Tj ET
+BT /F2 14 Tf 40 417 Td (- Nouveau systeme de craft) Tj ET
+0.5 g BT /F2 10 Tf 350 30 Td (2 / 6) Tj ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 420 595] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 10 0 R >>
+endobj
+10 0 obj
+<< /Length 299 >>
+stream
+0.96 0.71 0.16 rg 0 587 420 8 re f
+BT /F1 26 Tf 40 515 Td (Equilibrage) Tj ET
+BT /F2 14 Tf 40 465 Td (- Epee longue : degats 40 -> 36) Tj ET
+BT /F2 14 Tf 40 441 Td (- Arc : cadence +10%) Tj ET
+BT /F2 14 Tf 40 417 Td (- Bouclier : cooldown 8s -> 10s) Tj ET
+0.5 g BT /F2 10 Tf 350 30 Td (3 / 6) Tj ET
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 420 595] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 12 0 R >>
+endobj
+12 0 obj
+<< /Length 298 >>
+stream
+0.96 0.71 0.16 rg 0 587 420 8 re f
+BT /F1 26 Tf 40 515 Td (Corrections) Tj ET
+BT /F2 14 Tf 40 465 Td (- Crash au lancement corrige) Tj ET
+BT /F2 14 Tf 40 441 Td (- Collision des murs corrigee) Tj ET
+BT /F2 14 Tf 40 417 Td (- Fuite memoire en lobby) Tj ET
+0.5 g BT /F2 10 Tf 350 30 Td (4 / 6) Tj ET
+endstream
+endobj
+13 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 420 595] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 14 0 R >>
+endobj
+14 0 obj
+<< /Length 238 >>
+stream
+0.96 0.71 0.16 rg 0 587 420 8 re f
+BT /F1 26 Tf 40 515 Td (Problemes connus) Tj ET
+BT /F2 14 Tf 40 465 Td (- Lag possible en 4K) Tj ET
+BT /F2 14 Tf 40 441 Td (- Son decale sur certains PC) Tj ET
+0.5 g BT /F2 10 Tf 350 30 Td (5 / 6) Tj ET
+endstream
+endobj
+15 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 420 595] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 16 0 R >>
+endobj
+16 0 obj
+<< /Length 164 >>
+stream
+0.96 0.71 0.16 rg 0 587 420 8 re f
+BT /F1 26 Tf 40 515 Td (Merci !) Tj ET
+BT /F2 14 Tf 40 465 Td (Bon jeu a tous.) Tj ET
+0.5 g BT /F2 10 Tf 350 30 Td (6 / 6) Tj ET
+endstream
+endobj
+xref
+0 17
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000148 00000 n 
+0000000223 00000 n 
+0000000293 00000 n 
+0000000429 00000 n 
+0000000873 00000 n 
+0000001009 00000 n 
+0000001341 00000 n 
+0000001478 00000 n 
+0000001828 00000 n 
+0000001966 00000 n 
+0000002315 00000 n 
+0000002453 00000 n 
+0000002742 00000 n 
+0000002880 00000 n 
+trailer
+<< /Size 17 /Root 1 0 R >>
+startxref
+3095
+%%EOF

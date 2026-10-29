@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Veilbound · Of Passage</title>
+  <meta name="description" content="Veilbound, le prochain jeu d'Of Passage, en développement sous Godot. Sa notice et l'inscription au playtest.">
+  <meta name="theme-color" content="#0b0e18">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Veilbound · Of Passage">
+  <meta property="og:description" content="Le prochain jeu d'Of Passage : sa notice et ses playtests.">
+  <!-- Une fois le site en ligne, remplace par l'adresse complète : https://ton-site/img/veilbound.jpg -->
+  <meta property="og:image" content="img/veilbound.jpg">
+  <link rel="icon" href="img/of-passage.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Public+Sans:wght@400;500;600&family=VT323&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <!-- Lecteur de PDF + effet de pages qui tournent -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/page-flip@2.0.7/dist/js/page-flip.browser.js"></script>
+</head>
+<body>
+  <!-- Les textes marqués data-i18n sont traduits par veilbound.js (dictionnaire TEXTS) -->
+  <a class="skip-link" href="#notice" data-i18n="skip">Aller à la notice</a>
+
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a href="index.html" class="nav-logo" translate="no">Of Passage</a>
+      <nav aria-label="Navigation principale" data-i18n-aria="navLabel">
+        <a href="veilbound.html" class="nav-vb" aria-current="page" translate="no">Veilbound</a>
+        <a href="index.html#jeux" data-i18n="navGames">Jeux</a>
+        <a href="index.html#collectif" data-i18n="navCollective">Le collectif</a>
+        <a href="index.html#equipe" data-i18n="navTeam">Équipe</a>
+        <a href="index.html#rejoindre" data-i18n="navJoin">Rejoindre</a>
+        <div class="lang" role="group" aria-label="Langue" data-i18n-aria="langLabel">
+          <button type="button" class="lang-btn" data-lang="fr" aria-pressed="true">FR</button>
+          <button type="button" class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===== PRÉSENTATION DU JEU ===== -->
+    <section class="vb-hero">
+      <div class="wrap vb-hero-inner">
+        <div class="vb-hero-art">
+          <img src="img/veilbound.jpg" alt="Logo de Veilbound" data-i18n-alt="vbAlt">
+        </div>
+        <div class="vb-hero-body">
+          <p class="status" data-i18n="vbStatus">En développement</p>
+          <h1 translate="no">Veilbound</h1>
+          <!-- À compléter : pitch, genre, date de sortie prévue -->
+          <p class="vb-hero-text" data-i18n="vbText">
+            Notre prochain jeu, en développement sous Godot. Toute l'équipe participe aux choix,
+            et des sessions de playtest sont en cours.
+          </p>
+          <ul class="chips">
+            <li>Godot</li>
+            <li>FMOD</li>
+            <li data-i18n="vbChipPlaytest">Playtests en cours</li>
+          </ul>
+          <div class="game-actions">
+            <a class="btn btn-light" href="index.html#playtest" data-i18n="vbJoin">Rejoindre le playtest</a>
+            <a class="game-link game-link-light" href="#notice" data-i18n="vbSeeNotice">Lire la notice ↓</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== NOTICE ===== -->
+    <!-- Pour changer la notice : remplace le fichier notice.pdf (en gardant ce nom) -->
+    <section id="notice" class="section wrap">
+      <div class="section-head">
+        <p class="eyebrow" translate="no">Veilbound</p>
+        <h2 data-i18n="noticeTitle">La notice</h2>
+      </div>
+      <button type="button" class="note" id="notice-open">
+        <span class="note-title" data-i18n="noticeName">Notice de Veilbound</span>
+        <span class="note-read" data-i18n="read">Lire →</span>
+      </button>
+    </section>
+  </main>
+
+  <!-- Lecteur : la notice s'ouvre comme un livre -->
+  <div class="reader" id="reader" role="dialog" aria-modal="true" aria-labelledby="reader-title" hidden>
+    <div class="reader-bar">
+      <p class="reader-title" id="reader-title"></p>
+      <p class="reader-help" data-i18n="readerHelp">← → pour tourner les pages · Échap pour fermer</p>
+      <button type="button" class="reader-close" id="reader-close" aria-label="Fermer" data-i18n-aria="close">×</button>
+    </div>
+    <p class="reader-loading" id="reader-loading" data-i18n="loading">Chargement de la notice…</p>
+    <div class="reader-stage" id="reader-stage"><div id="book"></div></div>
+  </div>
+
+  <footer class="footer wrap">
+    <span>© <span id="year">2026</span> <span translate="no">Of Passage</span></span>
+    <a class="pixel" href="index.html">← <span data-i18n="backHome">Retour au collectif</span></a>
+  </footer>
+
+  <script src="veilbound.js"></script>
+</body>
+</html>
